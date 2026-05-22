@@ -179,7 +179,7 @@ title: Namig Azimli - Senior DevOps Engineer
 </div>
 
 ## Professional Summary
-Innovative Senior DevOps Engineer with over three years of experience building secure, highly observable cloud‑native platforms. I specialise in advanced GitOps implementations using Kustomize, Helm, FluxCD, and ArgoCD. With a strong focus on shift‑left security and resilient microservice architectures, I design solutions that bridge complex infrastructure with developer productivity.
+Innovative DevOps Engineer with over three years of experience building secure, highly observable cloud‑native platforms. Specializes in advanced GitOps implementations — specifically decoupling application and infrastructure repositories — using Kustomize, Helm, FluxCD, and ArgoCD. Proficient in Kubernetes, rootless Docker, and Ansible, with a strong focus on shift‑left security practices (Vault, Trivy, SonarQube) and resilient microservice architectures.
 
 ## Core Technical Skills
 - **Cloud & Orchestration:** Kubernetes, OpenShift, Google Cloud Platform (GCP)
@@ -188,46 +188,48 @@ Innovative Senior DevOps Engineer with over three years of experience building s
 - **Security & Policy:** HashiCorp Vault, Bitnami Sealed Secrets, Kyverno, Trivy, SonarQube
 - **Observability:** OpenTelemetry, Prometheus, Grafana, Zabbix, PRTG Monitor
 - **Scripting & Languages:** Python, Go (Golang), Bash
-- **Systems Administration:** Linux System Administration (RHCE/RHCSA)
+- **Systems Administration:** Linux (RHCE/RHCSA)
+- **Other Tools:** Ansible, rootless Docker, MinIO
 
 ## Featured Engineering Projects
 
 ### Enterprise OpenShift Migration & LDAP Integration
-- Executed migration of OpenShift cluster virtual machines between Nutanix environments to improve resource allocation and availability.
+- Executed migration of OpenShift cluster VMs between Nutanix environments to improve resource allocation and availability.
 - Implemented OpenShift LDAP integration and synchronized cluster-administrator groups for secure RBAC.
 
 ### AI-Driven Merge Request Automation
-- Developed an AI-driven Merge Request reviewer integrated into GitLab CI/CD to automate code analysis and append markdown feedback to MRs.
+- Built an AI-driven MR reviewer integrated into GitLab CI to analyze diffs and append actionable markdown feedback to merge requests.
 
 ### GitOps Transformation & Secrets Management
-- Architected a GitOps workflow with Git as the single source of truth for infrastructure and application configurations.
-- Hardened microservice environments by integrating HashiCorp Vault and migrating plaintext secrets to Sealed Secrets.
-- Scaled production microservices using HPA and PDB via Kustomize patches for zero-downtime deployments.
+- Architected GitOps workflows with Git as the single source of truth for infrastructure and applications.
+- Hardened environments by integrating Vault and migrating plaintext secrets to Sealed Secrets.
+- Scaled microservices using HPA and PDB via Kustomize patches for zero-downtime deployments.
 
 ### Disaster Recovery & Automated Resilience
-- Built automated network recovery scripts for Linux VM backup/restore across geographically separated data centers.
-- Implemented daily cron backups of production data to MinIO for reliable disaster recovery.
+- Created automated network recovery scripts for Linux VM backup/restore across geographically separated data centers.
+- Implemented daily cron backups to MinIO for reliable disaster recovery.
 
 ## Professional Experience
 
 ### Senior DevOps Engineer
 **Central Bank of the Republic of Azerbaijan** • Apr 2025 - Present
 - Lead design and continuous improvement of automation frameworks across the SDLC.
-- Identify bottlenecks and drive optimisation to improve system performance and developer productivity.
-- Architect, build, and manage CI/CD pipelines for complex microservice environments.
-- Implement monitoring, logging, and alerting strategies for distributed systems.
+- Architect, build, and manage CI/CD pipelines for complex microservice environments; enforce secure, fast, and reliable delivery with automated testing and progressive delivery.
+- Design and implement monitoring, logging, and alerting strategies for distributed systems.
+- Architected and implemented a complete GitOps workflow, making Git the single source of truth for infrastructure and application configurations.
 
 ### DevOps Engineer
 **BestComp Group** • Jan 2024 - Apr 2025
-- Administered production-grade Kubernetes clusters; handled provisioning, scaling, and upgrades.
-- Implemented RBAC and Network Policies to enforce workload isolation.
-- Managed Ingress (NGINX), persistent storage (PV/PVC), and Istio service mesh.
-- Used ArgoCD for GitOps-based application delivery and maintained reusable Helm charts.
+- Administered production-grade Kubernetes clusters: provisioning, node pool scaling, and upgrades.
+- Implemented RBAC and Network Policies to enforce workload isolation and least privilege.
+- Engineered Ingress (NGINX), persistent storage (PV/PVC), and Istio service mesh.
+- Managed application delivery with ArgoCD and developed reusable Helm charts for multi‑environment deployments.
 
 ### DevOps Engineer
 **A2Z Technologies** • Mar 2022 - Jan 2024
-- Collaborated with engineering teams to deploy and operate systems.
+- Collaborated with engineers and QA to deploy and operate systems.
 - Performed technical troubleshooting and provided consultation to development teams.
+- Resolved issues across development, test, and production environments and documented root causes.
 
 ### Senior OSS Operations Engineer
 **Azerconnect Group** • Jul 2021 - Mar 2022
@@ -236,13 +238,13 @@ Innovative Senior DevOps Engineer with over three years of experience building s
 
 ### Junior Linux Administrator
 **Ministry of Internal Affairs** • Sep 2020 - Jul 2021
-- Configured, deployed, and hardened bare-metal Linux servers (RHEL, CentOS).
-- Implemented monitoring with Zabbix and PRTG; authored Bash automation scripts.
+- Configured, deployed, and hardened bare-metal Linux servers (RHEL, CentOS) in HA environments.
+- Implemented monitoring with Zabbix and PRTG; authored Bash scripts to automate administration tasks.
 
 ### IT Engineer
 **SINAM** • Jun 2019 - Sep 2020
 - Managed hardware lifecycle and workstation deployments.
-- Administered system updates and patch management.
+- Administered system updates and patch management to maintain security and stability.
 
 ## Education
 - **Bachelor of Computer Science** — Baku State University (Sep 2012 - Jun 2016)
