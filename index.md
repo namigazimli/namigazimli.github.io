@@ -1,11 +1,55 @@
 ---
 layout: default
-title: Namig Azimli - Portfolio
+title: Namig Azimli - Senior DevOps Engineer
 ---
 
-## Namig Azimli
 **Senior DevOps Engineer** | Baku, Azerbaijan | namiqazimli28@gmail.com
 
+---
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fcfcfc;
+  }
+
+  h1, h2, h3, h4 {
+    color: #111111;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  h1 { font-size: 2.5em; text-align: center; border-bottom: none; }
+  h2 { font-size: 1.75em; border-bottom: 2px solid #eaeaea; padding-bottom: 0.3em; }
+  h3 { font-size: 1.25em; margin-bottom: 0.2em; }
+
+  a { color: #0366d6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: #eaeaea;
+    margin: 2em 0;
+  }
+
+  ul { padding-left: 20px; }
+  li { margin-bottom: 0.5em; }
+
+  /* Style the contact info at the top */
+  p:first-of-type {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    margin-top: -10px;
+  }
+</style>
 ---
 
 ### Professional Summary
