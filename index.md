@@ -168,7 +168,7 @@ title: Namig Azimli - Senior DevOps Engineer
 </style>
 
 <div class="profile-header">
-  <img src="https://ui-avatars.com/api/?name=Namig+Azimli&size=200&background=58a6ff&color=fff&font-size=0.4&bold=true" alt="Namig Azimli" class="avatar">
+  <img src="https://github.com/namigazimli.png" alt="Namig Azimli" class="avatar">
   
   <div class="profile-info">
     <div class="name-heading">Namig Azimli</div>
