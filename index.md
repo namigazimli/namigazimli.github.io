@@ -184,79 +184,60 @@ title: Namig Azimli - Senior DevOps Engineer
 </div>
 
 ## Professional Summary
-[cite_start]Innovative Senior DevOps Engineer with over three years of dedicated experience building secure, highly observable cloud-native platforms. [cite: 5] [cite_start]I specialise in advanced GitOps implementations, specifically decoupling application and infrastructure repositories using Kustomize, Helm, FluxCD, and ArgoCD. [cite: 6] [cite_start]With a strong focus on "shift-left" security practices (Vault, Trivy, SonarQube) and building resilient, highly observable microservice architectures, I design solutions that bridge the gap between complex infrastructure and developer productivity. [cite: 7]
+Innovative Senior DevOps Engineer with over three years of dedicated experience building secure, highly observable cloud-native platforms[cite: 61]. [cite_start]I specialise in advanced GitOps implementations, specifically decoupling application and infrastructure repositories using Kustomize, Helm, FluxCD, and ArgoCD[cite: 62]. [cite_start]With a strong focus on "shift-left" security practices (Vault, Trivy, SonarQube) and building resilient, highly observable microservice architectures, I design solutions that bridge the gap between complex infrastructure and developer productivity[cite: 63].
 
 ## Core Technical Skills
-* [cite_start]**Cloud & Orchestration:** Kubernetes, OpenShift, Google Cloud Platform (GCP). [cite: 47]
-* [cite_start]**GitOps & CI/CD:** ArgoCD, FluxCD, Helm, Kustomize, GitLab CI, BuildKit. [cite: 48, 52]
-* [cite_start]**Networking & Service Mesh:** Istio, Cilium, NGINX. [cite: 49, 50]
-* [cite_start]**Security & Policy:** HashiCorp Vault, Bitnami Sealed Secrets, Kyverno, Trivy, SonarQube. [cite: 51]
-* [cite_start]**Observability:** OpenTelemetry, Prometheus, Grafana, Zabbix, PRTG Monitor. [cite: 54]
-* [cite_start]**Scripting & Languages:** Python, Go (Golang), Bash. [cite: 53]
-* [cite_start]**Systems Administration:** Linux System Administration (RHCE/RHCSA). [cite: 55]
-
-## Featured Engineering Projects
-
-### Enterprise OpenShift Migration & LDAP Integration
-* Successfully executed the migration of OpenShift cluster virtual machines between Nutanix environments to ensure optimal resource allocation and high availability.
-* Implemented full OpenShift LDAP integration, synchronizing cluster-administrator groups to establish streamlined and secure role-based access control (RBAC).
-
-### AI-Driven Merge Request Automation
-* Developed and integrated an AI-driven Merge Request (MR) reviewer repository directly into GitLab CI/CD workflows.
-* Automated the analysis of codebase changes, generating detailed markdown feedback and appending descriptions directly into MRs to accelerate peer reviews and maintain code quality.
-
-### GitOps Transformation & Secrets Management
-* [cite_start]Architected a complete GitOps workflow, designating Git repositories as the single source of truth for both infrastructure and application configurations. [cite: 16]
-* Hardened complex microservice environments by integrating HashiCorp Vault and transitioning plain text secrets to Bitnami Sealed Secrets for secure reconciliation.
-* Scaled production microservices utilizing HorizontalPodAutoscalers (HPA) and PodDisruptionBudgets (PDB) via Kustomize patches for zero-downtime deployments.
-
-### Disaster Recovery & Automated Resilience
-* Engineered automated network recovery shell scripts designed for seamless Linux VM backup and restore processes across geographically separated data centers.
-* Established robust daily cron backups of critical production data directly to MinIO buckets, ensuring persistent data reliability and rapid disaster recovery capabilities.
+* [cite_start]**Cloud & Orchestration:** Kubernetes, OpenShift[cite: 103].
+* [cite_start]**GitOps & CI/CD:** ArgoCD, FluxCD, Helm, Kustomize, GitLab CI, BuildKit[cite: 104].
+* [cite_start]**Networking & Service Mesh:** Istio, Cilium, NGINX[cite: 105, 106].
+* [cite_start]**Security & Policy:** HashiCorp Vault, Bitnami Sealed Secrets, Kyverno, Trivy, SonarQube[cite: 107].
+* [cite_start]**Observability:** OpenTelemetry, Prometheus, Grafana, Zabbix, PRTG Monitor[cite: 110].
+* [cite_start]**Scripting & Languages:** Python, Go (Golang), Bash[cite: 109].
+* [cite_start]**Systems Administration:** Linux System Administration (RHCE/RHCSA)[cite: 111].
 
 ## Professional Experience
 
 ### Senior DevOps Engineer
-**Central Bank of the Republic of Azerbaijan** &bull; [cite_start]*Apr 2025 - Present* [cite: 9, 10]
-* [cite_start]Lead the design, implementation, and continuous improvement of automation frameworks across the software development lifecycle (SDLC). [cite: 11]
-* [cite_start]Proactively identify bottlenecks and drive optimisation initiatives to enhance system performance and developer productivity. [cite: 12]
-* [cite_start]Architect, build, and manage sophisticated CI/CD pipelines for complex microservice environments. [cite: 13]
-* [cite_start]Ensure pipelines are secure, fast, and reliable, incorporating best practices for automated testing and progressive delivery. [cite: 14]
-* [cite_start]Design and implement comprehensive monitoring, logging, and alerting strategies (observability) for distributed systems and microservice architectures. [cite: 15]
+**Central Bank of the Republic of Azerbaijan** &bull; [cite_start]*Apr 2025 - Present* [cite: 65, 66]
+* [cite_start]Lead the design, implementation, and continuous improvement of automation frameworks across the software development lifecycle (SDLC)[cite: 67].
+* [cite_start]Proactively identify bottlenecks and drive optimisation initiatives to enhance system performance and developer productivity[cite: 68].
+* [cite_start]Architect, build, and manage sophisticated CI/CD pipelines for complex microservice environments[cite: 69].
+* [cite_start]Ensure pipelines are secure, fast, and reliable, incorporating best practices for automated testing and progressive delivery[cite: 70].
+* [cite_start]Design and implement comprehensive monitoring, logging, and alerting strategies (observability) for distributed systems and microservice architectures[cite: 71].
 
 ### DevOps Engineer
-**BestComp Group** &bull; [cite_start]*Jan 2024 - Apr 2025* [cite: 17, 18]
-* [cite_start]Administered and maintained production-grade Kubernetes clusters, managing the full lifecycle from cluster provisioning and node pool scaling to version upgrades. [cite: 19]
-* [cite_start]Secured cluster environments by implementing fine-grained RBAC, Network Policies to enforce workload isolation and the principle of least privilege. [cite: 20]
-* [cite_start]Engineered cluster-wide services, including Ingress controllers (NGINX), persistent storage (PV/PVCs), and service mesh (Istio) to support developer applications. [cite: 21]
-* [cite_start]Managed application delivery using ArgoCD, configuring it to automatically sync and reconcile the cluster's live state with the desired state defined in Git. [cite: 22]
-* [cite_start]Developed and managed reusable Helm charts to standardise application deployments, managing chart lifecycles and application configurations across development, staging, and production environments. [cite: 23]
+**BestComp Group** &bull; [cite_start]*Jan 2024 - Apr 2025* [cite: 73, 74]
+* [cite_start]Administered and maintained production-grade Kubernetes clusters, managing the full lifecycle from cluster provisioning and node pool scaling to version upgrades[cite: 75].
+* [cite_start]Secured cluster environments by implementing fine-grained RBAC, Network Policies to enforce workload isolation and the principle of least privilege[cite: 76].
+* [cite_start]Engineered cluster-wide services, including Ingress controllers (NGINX), persistent storage (PV/PVCs), and service mesh (Istio) to support developer applications[cite: 77].
+* [cite_start]Managed application delivery using ArgoCD, configuring it to automatically sync and reconcile the cluster's live state with the desired state defined in Git[cite: 78].
+* [cite_start]Developed and managed reusable Helm charts to standardise application deployments, managing chart lifecycles and application configurations across development, staging, and production environments[cite: 79].
 
 ### DevOps Engineer
-**A2Z Technologies** &bull; [cite_start]*Mar 2022 - Jan 2024* [cite: 24, 25]
-* [cite_start]Work collaboratively with software engineers, architects, and quality assurance to deploy and operate the systems. [cite: 26]
-* [cite_start]Performing general technical troubleshooting & giving consultation to development teams. [cite: 27]
-* [cite_start]Troubleshoot and resolve issues in development, test, and production environments. [cite: 27]
+**A2Z Technologies** &bull; [cite_start]*Mar 2022 - Jan 2024* [cite: 80, 81]
+* [cite_start]Work collaboratively with software engineers, architects, and quality assurance to deploy and operate the systems[cite: 82].
+* [cite_start]Performing general technical troubleshooting & giving consultation to development teams[cite: 83].
+* [cite_start]Troubleshoot and resolve issues in development, test, and production environments[cite: 83].
 
 ### Senior OSS Operations Engineer
-**Azerconnect Group** &bull; [cite_start]*July 2021 - Mar 2022* [cite: 28, 29]
-* [cite_start]Maintains smooth operation and administration of OSS systems, including coordination with network engineers. [cite: 30]
-* [cite_start]Manage the complex OSS system and related tools, planned works and work orders implementation. [cite: 31]
-* [cite_start]Provide support to the other units in case of faults and problems in the functionality of the OSS/EMS systems. [cite: 32]
+**Azerconnect Group** &bull; [cite_start]*July 2021 - Mar 2022* [cite: 84, 85]
+* [cite_start]Maintains smooth operation and administration of OSS systems, including coordination with network engineers[cite: 86].
+* [cite_start]Manage the complex OSS system and related tools, planned works and work orders implementation[cite: 87].
+* [cite_start]Provide support to the other units in case of faults and problems in the functionality of the OSS/EMS systems[cite: 88].
 
 ### Junior Linux Administrator
-**Ministry of Internal Affairs** &bull; [cite_start]*Sep 2020 - July 2021* [cite: 33, 34]
-* [cite_start]Orchestrated the end-to-end configuration, deployment, and hardening of bare-metal Linux servers (RHEL, CentOS) in high-availability production environments. [cite: 35]
-* [cite_start]Engineered and maintained comprehensive infrastructure monitoring solutions using Zabbix and PRTG Monitor to ensure 24/7 visibility across servers, network, and storage. [cite: 36]
-* [cite_start]Authored and maintained custom Bash shell scripts to automate complex system administration tasks, reducing manual error and improving operational efficiency. [cite: 37]
+**Ministry of Internal Affairs** &bull; [cite_start]*Sep 2020 - July 2021* [cite: 89, 90]
+* [cite_start]Orchestrated the end-to-end configuration, deployment, and hardening of bare-metal Linux servers (RHEL, CentOS) in high-availability production environments[cite: 91].
+* [cite_start]Engineered and maintained comprehensive infrastructure monitoring solutions using Zabbix and PRTG Monitor to ensure 24/7 visibility across servers, network, and storage[cite: 92].
+* [cite_start]Authored and maintained custom Bash shell scripts to automate complex system administration tasks, reducing manual error and improving operational efficiency[cite: 93].
 
 ### IT Engineer
-**SINAM** &bull; [cite_start]*June 2019 - Sep 2020* [cite: 38, 39]
-* [cite_start]Managed the full hardware lifecycle, including the deployment, configuration, and setup of new workstations/peripherals and the decommissioning/replacement of faulty or end-of-life equipment. [cite: 40]
-* [cite_start]Administered system updates and patch management for operating systems and drivers to ensure security compliance, system stability, and optimal performance. [cite: 41]
+**SINAM** &bull; [cite_start]*June 2019 - Sep 2020* [cite: 94, 95]
+* [cite_start]Managed the full hardware lifecycle, including the deployment, configuration, and setup of new workstations/peripherals and the decommissioning/replacement of faulty or end-of-life equipment[cite: 96].
+* [cite_start]Administered system updates and patch management for operating systems and drivers to ensure security compliance, system stability, and optimal performance[cite: 97].
 
 ## Education
-* **Bachelor of Computer Science** &bull; [cite_start]*Baku State University* (Sep 2012 - June 2016) [cite: 43, 44, 45]
+* **Bachelor of Computer Science** &bull; [cite_start]*Baku State University* (Sep 2012 - June 2016) [cite: 98, 99, 100, 101]
 
 ## Certifications
 * **Google Cloud Professional Cloud DevOps Engineer**
