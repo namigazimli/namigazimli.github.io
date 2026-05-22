@@ -3,9 +3,6 @@ layout: default
 title: Namig Azimli - Senior DevOps Engineer
 ---
 
-**Senior DevOps Engineer** | Baku, Azerbaijan | namiqazimli28@gmail.com
-
----
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
@@ -19,15 +16,17 @@ title: Namig Azimli - Senior DevOps Engineer
     background-color: #fcfcfc;
   }
 
-  h1, h2, h3, h4 {
-    color: #111111;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+  /* Force the main title to be a professional dark gray */
+  h1 { 
+    font-size: 2.5em; 
+    text-align: center; 
+    border-bottom: none; 
+    color: #111111 !important; 
+    margin-bottom: 0.2em;
   }
-
-  h1 { font-size: 2.5em; text-align: center; border-bottom: none; }
-  h2 { font-size: 1.75em; border-bottom: 2px solid #eaeaea; padding-bottom: 0.3em; }
-  h3 { font-size: 1.25em; margin-bottom: 0.2em; }
+  
+  h2 { font-size: 1.75em; border-bottom: 2px solid #eaeaea; padding-bottom: 0.3em; margin-top: 1.5em; color: #111; }
+  h3 { font-size: 1.25em; margin-bottom: 0.2em; color: #111; margin-top: 1.5em; }
 
   a { color: #0366d6; text-decoration: none; }
   a:hover { text-decoration: underline; }
@@ -42,14 +41,36 @@ title: Namig Azimli - Senior DevOps Engineer
   ul { padding-left: 20px; }
   li { margin-bottom: 0.5em; }
 
-  /* Style the contact info at the top */
-  p:first-of-type {
+  .contact-info {
     text-align: center;
     font-size: 1.1em;
     color: #555;
-    margin-top: -10px;
+    margin-bottom: 2em;
+  }
+
+  /* Sleek Dark Mode (Auto-detects user's system preference) */
+  @media (prefers-color-scheme: dark) {
+    body { background-color: #0d1117; color: #c9d1d9; }
+    h1, h2, h3, h4 { color: #f0f6fc !important; }
+    h2 { border-bottom: 2px solid #21262d; }
+    hr { background: #21262d; }
+    .contact-info { color: #8b949e; }
+    a { color: #58a6ff; }
+  }
+
+  /* Print Optimization (For saving as a clean PDF) */
+  @media print {
+    body { background-color: white; color: black; padding: 0; max-width: 100%; }
+    h2 { border-bottom: 1px solid black; }
+    a { text-decoration: none; color: black; }
+    @page { margin: 0.75in; }
   }
 </style>
+
+<div class="contact-info">
+  <strong>Senior DevOps Engineer</strong> &bull; Baku, Azerbaijan &bull; <a href="mailto:namiqazimli28@gmail.com">namiqazimli28@gmail.com</a>
+</div>
+
 ---
 
 ### Professional Summary
