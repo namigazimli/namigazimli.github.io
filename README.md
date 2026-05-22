@@ -1,0 +1,1 @@
+# namigazimli.github.io
