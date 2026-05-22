@@ -46,6 +46,7 @@ title: Namig Azimli - Senior DevOps Engineer
     font-size: 1.1em;
     color: #555;
     margin-bottom: 2em;
+    line-height: 1.8;
   }
 
   /* Sleek Dark Mode (Auto-detects user's system preference) */
@@ -68,7 +69,10 @@ title: Namig Azimli - Senior DevOps Engineer
 </style>
 
 <div class="contact-info">
-  <strong>Senior DevOps Engineer</strong> &bull; Baku, Azerbaijan &bull; <a href="mailto:namiqazimli28@gmail.com">namiqazimli28@gmail.com</a>
+  <strong>Senior DevOps Engineer</strong> &bull; Baku, Azerbaijan <br>
+  <a href="mailto:namiqazimli28@gmail.com">namiqazimli28@gmail.com</a> &bull; 
+  <a href="https://www.linkedin.com/in/namig-azimli/" target="_blank">LinkedIn</a> &bull; 
+  <a href="https://www.credly.com/users/namig-azimli" target="_blank">Credly</a>
 </div>
 
 ---
@@ -146,7 +150,9 @@ Innovative Senior DevOps Engineer with over three years of dedicated experience 
 
 ---
 
-### Education & Certifications
+### Education
+* **Bachelor of Computer Science** | *Baku State University* (Sep 2012 - June 2016)
+
+### Certifications
 * **Google Cloud Professional Cloud DevOps Engineer**
 * **CNCF Golden Kubestronaut**
-* **Bachelor of Computer Science** | *Baku State University* (Sep 2012 - June 2016)
